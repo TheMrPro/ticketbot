@@ -18,7 +18,7 @@ function clean(text) {
 //console & playing !
 client.on('ready', () => {
     console.log(`${client.user.tag} Is Online !`) 
-    client.user.setGame(`${prefix}help`)
+    client.user.setGame(`${prefix}help | #RelaxTicket`)
 });
 
 
